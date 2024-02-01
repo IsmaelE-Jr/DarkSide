@@ -4,10 +4,22 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script defer type="module" src="./src/main.js"></script>
     <title>Vite App</title>
   </head>
   <body>
-    <div id="app"></div>
-    <script type="module" src="/main.js"></script>
+    <div id="app">
+      <main>
+        <audio id="backgroundMusic" loop>
+          <source src="./myMusic/Star Wars- The Imperial March (Darth Vader's Theme).mp3" type="audio/mp3">
+        </audio>
+        <div id="overlay">
+          <!-- You can customize the overlay content here -->
+        </div>
+        <div id="content">
+          <h1>Welcome To the Dark Side</h1>
+        </div>
+      </main>
+    </div>
   </body>
 </html>
