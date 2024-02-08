@@ -5,9 +5,9 @@
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-/* body {
-  overflow: hidden;
-} */
+body {
+  /* overflow: hidden; */
+}
 
 #overlay {
   position: fixed;
