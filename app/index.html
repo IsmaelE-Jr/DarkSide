@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script defer type="module" src="./src/main.js"></script>
     <title>Vite App</title>
+    <style>
+    </style>
   </head>
   <body>
     <div id="app">
@@ -13,8 +15,6 @@
         <audio id="backgroundMusic" loop>
           <source src="./myMusic/Star Wars- The Imperial March (Darth Vader's Theme).mp3" type="audio/mp3">
         </audio>
-        <!-- <div id="overlay">
-        </div> -->
         <div class="container">
           <nav>
             <img src="./photos/header.png" class='logo' alt="DarkSide Logo">
@@ -23,7 +23,6 @@
               <li><a href="#characters">Characters</a></li>
               <li><a href="#gallery">Gallery</a></li>
             </ul>
-            <button class="btn"><img src="./photos/icon.png">Join Us Today</button>
           </nav>
           <div class="content">
             <h1>The Dark Presence <br>of Darth Vader</h1>
@@ -34,12 +33,13 @@
               power and the unyielding grip of the Sith, encapsulating the essence of a character whose legacy is eternally etched 
               in the Star Wars mythos.
             </p>
-            <img src="./photos/darth-vader.jpg" class='lord' alt="leader">
+            <img src="./photos/front.png" class='lord' alt="leader">
+            <button class="btn"><img src="./photos/icon.png">Join Us Today</button>
           </div>
         </div>
-
-        <div class="content" id="characters">
-          <h2>character</h2>
+        <div id="characters">
+          <h2>Star Wars Characters</h2>
+          <div class="eachCharacter"></div>
         </div>
         <div class="content" id="gallery">
           <!-- Your Gallery content goes here -->
@@ -48,3 +48,4 @@
     </div>
   </body>
 </html>
+
